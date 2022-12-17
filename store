@@ -1,0 +1,6 @@
+$table->unsignedBigInteger('total');
+$table->string('nameBook');
+$table->unsignedBigInteger('idBook');
+$table->unsignedBigInteger('storeBooks');
+$table->unsignedBigInteger('borrowBooks');
+$table->foreign('idBook')->references('id')->on('books')->onDelete();

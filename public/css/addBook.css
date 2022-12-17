@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    margin-left: 250px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+#image {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border: none;
+    display: none;
+    object-fit: cover;
+    object-position: center;
+}
+
+#labelfile:hover {
+    cursor: pointer;
+    color: rgba(255, 46, 46, 0.766);
+}
+.area-box-chart {
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}

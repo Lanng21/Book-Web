@@ -1,0 +1,63 @@
+.wrapper {
+    width: 70%;
+    margin-left: 324px;
+    /* overflow: auto; */
+}
+
+.wrapper-table {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.td_info-books {
+    line-height: 110px;
+}
+
+.td_info {
+    line-height: 300%;
+}
+
+.child-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action {
+    height: 110px;
+}
+
+td img {
+    display: block;
+    margin: 5px auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.form-action {
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+.form-action label {
+    padding: 15px;
+    margin: 0;
+}
+
+.form-action input {
+    display: none;
+}
+
+.update:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-group-text {
+    height: 100%;
+}
+.input-group-append {
+    border-radius: none;
+}
+.form-control {
+    border: none;
+    background-color: antiquewhite;
+}
